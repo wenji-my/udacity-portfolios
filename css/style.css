@@ -1,0 +1,77 @@
+.googlefont {
+    font-family: 'Risque', serif;
+}
+.lobster-font {
+    font-family: 'Lobster';
+}
+.header {
+    margin-top: 20px;
+}
+.logo {
+    max-height: 100px;
+    display: inline-block;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.feature {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.feature:hover {
+    box-shadow: 0 0 100px #000;
+    transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    -webkit-transition: all 100ms ease-in;
+    -o-transition: all 100ms ease-in;
+    transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    cursor: pointer;
+}
+.devsite-footer-linkboxes-with-sites {
+    background-color: #272636;
+    padding: 2em;
+}
+.scrollUp {
+    position: fixed;
+    background-color: #777;
+    color: #eee;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    bottom: 20px;
+    right: 20px;
+    overflow: hidden;
+    width: 46px;
+    height: 46px;
+    border: none;
+    opacity: .6;
+    visibility: hidden;
+}
+/*显示返回顶部*/
+.cd-is-visible {
+    visibility: visible;
+    opacity: 0.6;
+}
+.foot_link {
+    padding: 0 10px 0 0;
+}
+h2 {
+    margin-left: 5px;
+}
+@media screen and (min-width: 992px) {
+    .scrollUp {
+        bottom: 100px;
+    }
+}
